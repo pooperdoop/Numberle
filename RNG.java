@@ -333,7 +333,7 @@ public class RNG implements ActionListener{
 		min = (first/60000)%60;
 		if(sec == 1 && gameTimeOn == false) {
 			howToPlay.setText("<html>The game generates a five digit number which you have to guess.<br/>You have five chances to guess and if you guess<br/>"
-		+ "any of the numbers you are<b/> given hints whether what the number is.<br/>If you fail all five chances, you lose.Good luck have fun.<html>");
+		+ "any of the numbers you are<b/> given hints whether what the number is.<br/>If you fail all five chances, you lose.Good luck have fun.<html> yes");
 		}
 		if(sec == 4 && gameTimeOn == false) {
 			addingListener();
